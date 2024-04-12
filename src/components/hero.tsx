@@ -30,8 +30,11 @@ const hero = () => {
                     </p>
                 </div>
                 <div className='flex justify-between'>
-                    <a href="#" className='py-2 px-8 font-extrabold text-2xl text-[#f5f5f5] bg-blck rounded-2xl tracking-widest'>
-                        Let&apos;s Talk
+                    <a href="#" className='group relative inline-block'>
+                        <span className='absolute inset-0 border-2 border-dashed rounded-2xl border-blck'></span>
+                        <span className='block h-full py-2 px-8 font-extrabold text-2xl text-[#f5f5f5] bg-blck rounded-2xl tracking-widest transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1'>
+                            Let&apos;s Talk
+                        </span>
                     </a>
                     <div className='flex flex-row w-52 justify-between'>
                         <a href="#" className='group relative inline-block'>
