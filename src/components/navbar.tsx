@@ -1,7 +1,13 @@
 "use client";
 import React, { useEffect, useState } from 'react';
+import { useTheme } from 'next-themes';
+import {    
+        FaLightbulb,
+        FaRegLightbulb    
+} from 'react-icons/fa';
 
 const Navbar = () => {
+    const { resolvedTheme, theme, setTheme } = useTheme();
     const [isSticky, setIsSticky] = useState(false);
     useEffect(() => {
         const handleScroll = () => {
@@ -25,7 +31,11 @@ const Navbar = () => {
                 <div className='flex flex-row'>
                     <p className='text-2xl py-4'>Personal Website</p>
                     <div className='mx-4 border-l-4 border-blck'></div>
-                    <button className='text-2xl py-4'>light</button>
+                    <button 
+                    onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
+                    className='text-2xl py-4'>
+                        {theme === 'light' ? <FaLightbulb /> : <FaRegLightbulb />}
+                    </button>
                 </div>
             </div>
         </nav>
