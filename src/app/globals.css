@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-    html {
-        @apply bg-[#f5f5f5];
+    body {
+        @apply dark:bg-blck bg-wht text-blck dark:text-wht;
     }
 }
