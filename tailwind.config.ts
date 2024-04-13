@@ -11,6 +11,7 @@ const config: Config = {
     extend: {
       colors: {
         'blck':'#1e1e1e',
+        'wht':'#f5f5f5',
       },
       container: {
         center: true,
