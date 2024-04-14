@@ -4,6 +4,6 @@
 
 @layer base {
     body {
-        @apply dark:bg-blck bg-wht text-blck dark:text-wht;
+        @apply dark:bg-blck bg-wht text-blck dark:text-wht transition-colors duration-300;
     }
 }
