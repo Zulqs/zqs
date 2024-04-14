@@ -32,26 +32,26 @@ const hero = () => {
                 <div className='flex justify-between'>
                     <a href="#" className='group relative inline-block'>
                         <span className='absolute inset-0 border-2 border-dashed rounded-2xl border-blck dark:border-wht'></span>
-                        <span className='block h-full py-2 px-8 font-extrabold text-2xl text-wht dark:text-blck bg-blck dark:bg-wht rounded-2xl tracking-widest transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1'>
+                        <span className='block h-full py-2 px-8 font-extrabold text-2xl text-wht dark:text-blck bg-blck dark:bg-wht rounded-2xl tracking-widest transition-transform duration-300 ease-out group-hover:ease-in group-hover:-translate-x-1 group-hover:-translate-y-1'>
                             Let&apos;s Talk
                         </span>
                     </a>
                     <div className='flex flex-row w-52 justify-between text-blck dark:text-wht'>
                         <a href="#" className='group relative inline-block'>
                             <span className="absolute inset-0 border-2 border-dashed rounded-2xl border-blck dark:border-wht"></span>
-                            <span className='block border-2 p-2.5 border-blck dark:border-wht rounded-2xl bg-wht dark:bg-blck transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1'>
+                            <span className='block border-2 p-2.5 border-blck dark:border-wht rounded-2xl bg-wht dark:bg-blck transition-transform duration-300 ease-in-out group-hover:ease-in group-hover:-translate-x-1 group-hover:-translate-y-1'>
                                 <FaLinkedin style={iconStyle}/>
                             </span>
                         </a>
                         <a href="#" className='group relative inline-block'>
                             <span className="absolute inset-0 border-2 border-dashed rounded-2xl border-blck dark:border-wht"></span>
-                            <span className='block border-2 p-2.5 border-blck dark:border-wht rounded-2xl bg-wht dark:bg-blck transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1'>
+                            <span className='block border-2 p-2.5 border-blck dark:border-wht rounded-2xl bg-wht dark:bg-blck transition-transform duration-300 ease-in-out group-hover:ease-in group-hover:-translate-x-1 group-hover:-translate-y-1'>
                                 <FaGithub style={iconStyle}/>
                             </span>
                         </a>
                         <a href="#" className='group relative inline-block'>
                             <span className="absolute inset-0 border-2 border-dashed rounded-2xl border-blck dark:border-wht"></span>
-                            <span className='block border-2 p-2.5 border-blck dark:border-wht rounded-2xl bg-wht dark:bg-blck transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1'>
+                            <span className='block border-2 p-2.5 border-blck dark:border-wht rounded-2xl bg-wht dark:bg-blck transition-transform duration-300 ease-in-out group-hover:ease-in group-hover:-translate-x-1 group-hover:-translate-y-1'>
                                 <FaInstagram style={iconStyle}/>
                             </span>
                         </a>
